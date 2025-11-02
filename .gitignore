@@ -1,0 +1,102 @@
+# Virtual Environments
+jupyter_env/
+jupyter_env_2/
+venv/
+env/
+ENV/
+.venv/
+
+# Sensitive Configuration Files (API Keys)
+**/config.json
+**/Config.json
+data/streamlit_files/config.json
+notebooks/Config.json
+notebooks/Config copy.json
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model Files and Caches (Large Files)
+*.bin
+*.h5
+*.npy
+*.safetensors
+.cache/
+huggingface/
+models/
+*.gguf
+*.pth
+
+# Logs and Databases (if containing sensitive data)
+logs/
+*.log
+
+# OS-specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ChromaDB and Vector Stores
+chroma_db/
+*.chroma
+*.sqlite3
+vectordb/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.env.local
+.venv
+env.bak/
+venv.bak/
